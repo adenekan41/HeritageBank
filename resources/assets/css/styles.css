@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+h1,h2,h3,h4,h5,h6,span,div,section,input,textarea,p,a{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    overflow: hidden;
+}
+
+.wrapper{
+    background-image: url('../img/wrapper.svg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+
+
+/*.form-control-x{
+    border-radius: 0px !important;
+    width: 100%;
+    border: 0px !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #999 !important;
+    margin: 20px auto;
+    padding: 5px 10px;
+}
+*/
+input.form-control.form-control-x:focus {
+    border-bottom: 2px solid #3379b7 !important;
+}
+
+/*Dashboard style guids*/
+/*append styles by adenekan wonderful*/
+/*line 35:*/
+
+label.f-w-3 {
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    margin-top: 17px;
+}
+
+.f-w-300{
+    font-weight: 300;
+}
+.f-w-400{
+    font-weight: 400;
+}
+.f-w-200{
+    font-weight: 200;
+}
+.f-w-100{
+    font-weight: 100;
+}
+.well.dash-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 0px 0px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.06);
+}
+
+p.dash-bar {
+    margin-bottom: 0px;
+    border-top: 1px solid #ddd;
+    color: #0b9afc;
+    margin-top: 3px;
+    padding-top: 3px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: left;
+    padding: 4px 0px 4px 14px;
+}
+p.dash-bar-green {
+    margin-bottom: 0px;
+    border-top: 1px solid #ddd;
+    color: #57c242;
+    margin-top: 3px;
+    cursor: pointer;
+    padding-top: 3px;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: left;
+    padding: 4px 0px 4px 14px;
+}
+p.dash-bar-orange {
+    margin-bottom: 0px;
+    border-top: 1px solid #ddd;
+    color: #ff5722;
+    margin-top: 3px;
+    cursor: pointer;
+    padding-top: 3px;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: left;
+    padding: 4px 0px 4px 14px;
+}
+p.dash-bar-pink {
+    margin-bottom: 0px;
+    border-top: 1px solid #ddd;
+    color: hotpink;
+    cursor: pointer;
+    margin-top: 3px;
+    padding-top: 3px;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: left;
+    padding: 4px 0px 4px 14px;
+}
+.dash-card small{
+    font-size: 9px;
+}
+.dash-card h4{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.dash-card .col-md-4 {
+    padding: 0px 0px 10px 25px;
+}
+.dash-card .col-md-8 {
+    padding: 0px 25px 6px 0px;
+}
+p.percentage-dash-card {
+    font-size: 22px;
+    margin-bottom: -3px !important;
+    margin-top: 4px;
+}
+img.img-responsive.dash-card-img-green {
+    height: 50px;
+    box-shadow: 0 2px 15px rgba(107, 208, 116, 0.2);
+    border: 1px solid #57c242;
+    width: 50px;
+    padding: 0px 11px;
+    border-radius: 50%;
+    /* border-radius: 0%; */
+}
+
+.well.monthly-recap p {
+    /* float: left; */
+    float: left;
+    padding-top: 4px;
+    clear: both;
+    padding-left: 27px;
+}
+.m-form-2:before{
+      content: 'To:' !important;
+    margin-right: 9px;
+    /* background-color: white; */
+    font-weight: 500;
+    color: #48b1fd;
+}
+.well.monthly-recap input:before {
+    content: 'From:';
+    margin-right: 9px;
+    /* background-color: white; */
+    font-weight: 500;
+    color: #48b1fd;
+}
+.well.monthly-recap {
+    background: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.07) !important;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    border: 1px solid #ddd;
+    padding: 8px 7px;
+}
+.monthly_forms {
+    float: right;
+    margin-right: 2%;
+}
+.monthly_forms input {
+    border-radius: 1px;
+     transition: all .3s ease;
+}
+.monthly_forms:hover input:after{
+    display: none !important;
+     transition: all .3s ease;
+}
+.footer.text-center p {
+    font-weight: 300;
+    font-size: 11px;
+}
+.footer.text-center h5 {
+    font-size: 15px;
+    font-weight: 300;
+}
+.footer.text-center .col-md-3 {
+    border-right: 1px solid #ddd;
+}
+.footer.text-center {
+    background: #fff;
+    padding: 14px;
+    margin-top: 3%;
+    border-top: 1px solid #ddd;
+}
+.monthly_forms input:after {
+    content: '\f3d0';
+    background: #48b1fd;
+    position: absolute;
+    /* height: 10px; */
+     transition: all .3s ease;
+    padding: 0px 10px;
+    right: 6%;
+    color: #fff;
+    font-family: Ionicons;
+}
+.well.goal .progress {
+    border-radius: 50px !important;
+    background: #e8e8e8;
+    border: none !important;
+    box-shadow: none !important;
+    height: 13px;
+    margin-bottom: 0px !important;
+    margin-top: 7%;
+}
+.well.goal .row {
+    border-bottom: 1px solid #ddd;
+    /* margin-bottom: 8px; */
+    margin-top: 5px;
+    padding-bottom: 2%;
+}
+
+.well.goal {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 12px 15px 0px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+.well.usr-mang {
+    clear: both;
+    border: 1px solid #ddd;
+    padding: 23px;
+        margin-bottom: 0px;
+    background: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+main{
+    overflow: hidden;
+}
+
+.well.usr-mang button {
+    float: right;
+    font-family: Roboto;
+    margin-top: -17px;
+    padding: 6px 38px;
+    border: none;
+    background: #48b1fd;
+    font-weight: 300;
+}
+
+.well.usr-mang p {
+    float: left;
+    margin-top: -9px;
+}
+.map-account tbody tr td {
+    text-align: center;
+    font-size: 13px;
+    padding: 18px 0px;
+    font-weight: 300;
+}
+.list-user tbody tr td {
+    text-align: center;
+    font-size: 13px;
+    padding: 9px 0px !important;
+    font-weight: 300;
+}
+section {
+    padding: 7px 26px;
+}
+a:visited {
+    color: #57c242 !important;
+}
+.well.map-account.list-user {
+    margin-top: 4%;
+}
+.list-user button {
+    padding: 4px 7px;
+    margin-top: 2px;
+    font-size: 12px;
+    /* margin: 0px 0px 0px; */
+    border: none;
+    background: #FFC107;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+.map-account thead tr td {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+.map-account p {
+    margin-bottom: 3%;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.well.map-account {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.09);
+}
+.well.goal p {
+    font-size: 15px;
+    padding-left: 4%;
+    font-weight: 300;
+    letter-spacing: 0.14em;
+}
+.well.goal h4 {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.well.goal {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+.well.goal .progress-bar {
+    border-radius: 50px;
+    /* box-shadow: 16px 1px 5px #8e8e8e8c; */
+    box-shadow: none !important;
+    border: none !important;
+}
+.well.chart {
+    background: #fff;
+    padding: 3px;
+    background-color: white;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.09) !important;
+    border: 1px solid #ddd;
+}
+img.img-responsive.dash-card-img-orange{
+    height: 50px;
+    border: 1px solid #ff5722;
+    width: 50px;
+    padding: 0px 11px;
+    border-radius: 50%;
+   
+    /* border-radius: 0%; */
+}
+ul.nav.navbar-nav.notifs i {
+    background: #efefef;
+    border-radius: 50%;
+    padding: 5px 8px;
+    /* color: #fff; */
+}
+.side-bar {
+    position: fixed;
+    width: 17%;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.13);
+    left: 0%;
+}
+.navbar-default {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    box-shadow: 0px 23px 13px -17px rgba(0,0,0,0.04) !important;
+}
+.side-bared {
+    display: block;
+    text-align: -webkit-center;
+}
+
+
+
+.navigation-left-side-bar {
+    margin-top: 17%;
+}
+
+.navigation-left-side-bar p {
+    background: #fff;
+    padding: 14px;
+}
+p.active {
+    border-left: 4px solid #57c242;
+    background: #d6d6d630 !important;
+}
+.navigation-left-side-bar i {
+    font-size: 17px;
+    font-weight: 900 !important;
+    margin-right: 4px;
+}
+
+.navigation-left-side-bar a {
+    text-decoration: none;
+    color: #57bf43;
+    font-weight: 400;
+    text-align: center;
+}
+.side-bared img {
+    width: 102px;
+    margin-bottom: 23%;
+    margin-top: 6%;
+}
+ul.nav.navbar-nav.notifs span {
+    position: absolute;
+    font-size: 9px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px 5px;
+    right: 12%;
+    top: 14%;
+}
+
+img.img-responsive.dash-card-img-pink{
+    height: 50px;
+    border: 1px solid #ff69b4;
+    width: 50px;
+    padding: 0px 11px;
+    border-radius: 50%;
+    /* border-radius: 0%; */
+}
+.nav>li>a>img {
+    height: 20px;
+    max-width: none;
+}
+a.dropdown-toggle.dash-icons small {
+    float: right;
+    margin-left: 1%;
+    margin-top: -19%;
+}
+
+
+a.dropdown-toggle.dash-icons p {
+    font-size: 12px;
+    float: right;
+    margin-top: -27%;
+}
+img.img-responsive.dash-card-img {
+    height: 50px;
+    border: 1px solid #46affb;
+    width: 50px;
+    padding: 0px 11px;
+    border-radius: 50%;
+    /* border-radius: 0%; */
+}
+
+
+/*dashboard ends here*/
+/*done appending*/
+.form-control-x {
+    border-radius: 0px !important;
+    /* width: 100%; */
+    transition: border-bottom .5s ease;
+    border: 0px !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #ddd !important;
+    /* margin: 20px auto; */
+    /* padding: 5px 10px; */
+}
+/*.form-control{
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px 10px;
+}
+*/
+
+.label {
+    font-size: 14px;
+    color: #777;
+    font-weight: 300 !important;
+    font-weight: bold;
+}
+.container.wrapper button {
+    border: none;
+    margin-top: 9%;
+    font-weight: 300 !important;
+    font-size: 12px;
+    font-family: Roboto !important;
+    padding: 8px 37px;
+}
+.login-form {
+    width: 450px;
+    height: auto;
+    padding: 50px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+.form-div{
+    padding-bottom: 150px;
+}
+
+.logo-div{
+    margin: 0px auto;
+    text-align: center;
+}
+
+.logo{
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.label{
+    font-size: 14px;
+    color: #777;
+    font-weight: bold;
+}
+
+.submit-div{
+    text-align: center;
+}
+.container.wrapper.usr-act {
+    padding: 90px !important;
+}
+.submit-button{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 40px;
+    margin-top: 60px;
+    border-radius: 3px;
+    background-color:dodgerblue;
+    border: 0px;
+}
